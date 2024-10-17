@@ -1,0 +1,6 @@
+@test_turnstile_HostAddress = http://localhost:5182
+
+GET {{test_turnstile_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
